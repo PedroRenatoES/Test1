@@ -13,10 +13,13 @@ Primero, debes instalar las dependencias necesarias. Ejecuta el siguiente comand
 
 npm install
 
-Ejecutar el proyecto de API RESTful, usando el siguiente comando
+### 2. Ejecutar el proyecto de API RESTful
+Usando el siguiente comando
 
 node tareas-api.js
 
-Para ejecutar la aplicación de tareas por consola, utiliza el siguiente comando:
+### 2. Ejecutar la aplicación de tareas por consola
+
+Utilizando el siguiente comando:
 
 node tareas-consola.js
