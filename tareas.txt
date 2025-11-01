@@ -1,0 +1,2 @@
+1|Barrer|completada
+2|Cocinar|completada
