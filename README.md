@@ -18,6 +18,34 @@ Usando el siguiente comando
 
 node tareas-api.js
 
+Consta de los siguientes endpoints y body:
+
+
+**Listar todas las tareas:**
+
+Get: http://localhost:3000/tareas
+
+**Listar una tarea en especifico**
+
+Get: http://localhost:3000/tareas/idTarea
+
+
+**Crear Tarea:**
+
+Post: http://localhost:3000/tareas
+
+{
+    "tarea": "Cocinar"
+}
+
+**Marcar tarea como completada:**
+
+Put: http://localhost:3000/tareas/idTarea
+
+**Eliminar Tarea:**
+
+Delete: http://localhost:3000/tareas/idTarea
+
 ### 2. Ejecutar la aplicación de tareas por consola
 
 Utilizando el siguiente comando:
